@@ -1,1 +1,7 @@
-nowenpn;msc[wm
+#Averaging Analytical Duplicates
+
+data = aggregate(data[,#column you want to average
+            ], by = list(ID = #columns you want to keep
+            ),FUN = "mean")
+
+# Columns unfortunately need to be renamed
