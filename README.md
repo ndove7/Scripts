@@ -1,3 +1,3 @@
 # Scripts
 
-Hi humans
+These are useful miscellaneous scripts for data management and visualization.
