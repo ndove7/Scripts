@@ -265,7 +265,7 @@ NPplot <- ggplot(data, aes(x = TREATMENT, y = NP, fill = TREATMENT)) +
               text = element_text(size = 12),
               axis.title = element_text(face="bold"),
               axis.text.x=element_text(size = 12))+
-        geom_hline(yintercept = 1)
+        geom_hline(yintercept = 1)+
         annotate("text",x=1.5,y=2.9,label="p = 0.314", size = 4) #label for p value; y will need to be adjusted
 
 grid.arrange(CNplot, CPplot, NPplot, ncol =3, top = textGrob("Enzyme Stoichiometry", gp=gpar(fontsize=16)))
