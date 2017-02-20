@@ -1,4 +1,4 @@
-#Averaging Analytical Duplicates
+# Averaging Analytical Duplicates
 
 data = aggregate(data[,#column you want to average
             ], by = list(ID = #columns you want to keep
